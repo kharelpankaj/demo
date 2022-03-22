@@ -164,8 +164,8 @@
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
                 "RedirectionType": "FeatureCode",
-                "RedirectionValue": "flight",
-                "RedirectionModule": "flight",
+                "RedirectionValue": "airlines",
+                "RedirectionModule": "airlines",
                 "Data": null
               },
               {
@@ -176,8 +176,8 @@
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
                 "RedirectionType": "FeatureCode",
-                "RedirectionValue": "cablecar",
-                "RedirectionModule": "cablecar",
+                "RedirectionValue": "cableCar",
+                "RedirectionModule": "cableCar",
                 "Data": null
               }
             ]
