@@ -1,5 +1,322 @@
 {
-    "ResponseCode": "101",
-    "ResponseDescription": "No Records Found",
-    "ResponseData": null
+  "ResponseCode": "100",
+  "ResponseDescription": "Success",
+  "ResponseData": {
+    "UserDetail": {
+      "UserFullName": "Pankaj Kharel",
+      "AccCode": "CS1100709",
+      "UserType": "Customer",
+      "KYCApproved": true,
+      "IsEmailVerified": true
+    },
+    "WalletDetail": {
+      "TotalBalance": 532,
+      "RewardPoints": 18000,
+      "InterestAmount": 65.12
+    },
+    "HomeMenu": [
+      {
+        "CategoryTitle": "Services",
+        "DisplayOrder": 1,
+        "CategoryTheme": 1,
+        "CategoryContent": [
+          {
+            "Title": "Recharge",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 1,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null,
+            "SubCategory": [
+              {
+                "PromotionalTxt": "",
+                "Title": "Mobile Recharge",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 1,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "mobileTopup",
+                "RedirectionModule": "mobileTopup",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Landline Recharge",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 2,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "landline",
+                "RedirectionModule": "landline",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Data Packs",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "ncellData",
+                "RedirectionModule": "Voice&Datapack",
+                "Data": null
+              }
+            ]
+          },
+          {
+            "Title": "Household Bills",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 1,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null,
+            "SubCategory": [
+              {
+                "PromotionalTxt": "",
+                "Title": "Electricity Bill",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 1,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "electricity",
+                "RedirectionModule": "electricity",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Internet",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "internet",
+                "RedirectionModule": "internet",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Television",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "tv",
+                "RedirectionModule": "tv",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Waste Management",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "wastemanagement",
+                "RedirectionModule": "wastemanagement",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Water Bill",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "khanePani",
+                "RedirectionModule": "khanePani",
+                "Data": null
+              }
+            ]
+          },
+          {
+            "Title": "Travel",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 1,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null,
+            "SubCategory": [
+              {
+                "PromotionalTxt": "",
+                "Title": "Flight",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 1,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "flight",
+                "RedirectionModule": "flight",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Cable Car",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 2,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "cablecar",
+                "RedirectionModule": "cablecar",
+                "Data": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "CategoryTitle": "RecentMoneyTransfer",
+        "PromotionalTxt": "",
+        "DisplayOrder": 2,
+        "CategoryTheme": 2,
+        "CategoryContent": [
+          {
+            "DisplayOrder": 1,
+            "Msisdn": "9823239373",
+            "Module": "imePayWallet",
+            "Category": "sendMoney",
+            "TxnDetails": {
+              "ParamJson": [
+                {
+                  "Key": "MOBILENUMBER",
+                  "Value": "9867107328"
+                }
+              ],
+              "Recent": {
+                "Amount": "10",
+                "SubTitle": "9867107328",
+                "Title": "Gsg Sfsg"
+              }
+            },
+            "PhoneOS": "Android",
+            "PhoneBrand": "sdk_gphone_arm64",
+            "CreatedDateTime": "2022-03-10 14:16:59",
+            "TransactionID": "202203101416575085",
+            "ModuleIconUrl": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
+            "CustomerImage": "9867107328_Customer_Profile_Image_00000000-0000-0000-0000-000000000000_2022-03-03.jpeg",
+            "UseHandler": true
+          }
+        ]
+      },
+      {
+        "CategoryTitle": "Promotional Banner",
+        "DisplayOrder": 3,
+        "CategoryTheme": 3,
+        "CategoryContent": [
+          {
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "ImageUrl": "http://www.google.com/xyz.png"
+          }
+        ]
+      },
+      {
+        "CategoryTitle": "Recommendation",
+        "DisplayOrder": 4,
+        "CategoryTheme": 4,
+        "CategoryContent": [
+          {
+            "DisplayOrder": 1,
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": "",
+            "Title": "Verify Email"
+          },
+          {
+            "DisplayOrder": 2,
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": "",
+            "Title": "Verify KYC"
+          }
+        ]
+      },
+      {
+        "CategoryTitle": "Invest",
+        "DisplayOrder": 5,
+        "CategoryTheme": 5,
+        "CategoryContent": [
+          {
+            "DisplayOrder": 1,
+            "Title": "Subscribe IPO news & results",
+            "SubTitle": "Get all the update about the latest NEPSE",
+            "ImageUrl": "",
+            "ButtonLbl": "Subscribe",
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": ""
+          },
+          {
+            "DisplayOrder": 2,
+            "Title": "Invite & Get Rewards",
+            "SubTitle": "Get all the update about the latest NEPSE",
+            "ImageUrl": "",
+            "ButtonLbl": "Invite",
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": ""
+          }
+        ]
+      },
+      {
+        "CategoryTitle": "Entertainment & Games",
+        "DisplayOrder": 6,
+        "CategoryTheme": 6,
+        "CategoryContent": [
+          {
+            "PromotionalTxt": "",
+            "DisplayOrder": 1,
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": "",
+            "Title": "Dishome Go"
+          },
+          {
+            "PromotionalTxt": "",
+            "DisplayOrder": 2,
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": "",
+            "Title": "Kathmandu Rider"
+          }
+        ]
+      },
+      {
+        "CategoryTitle": "Food",
+        "DisplayOrder": 7,
+        "CategoryTheme": 6,
+        "CategoryContent": [
+          {
+            "PromotionalTxt": "",
+            "DisplayOrder": 1,
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": "",
+            "Title": "Bhoj Deal"
+          },
+          {
+            "PromotionalTxt": "",
+            "DisplayOrder": 2,
+            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
+            "RedirectionValue": "",
+            "Title": "Foodmandu"
+          }
+        ]
+      }
+    ]
+  }
 }
