@@ -102,7 +102,7 @@
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
                 "RedirectionType": "FeatureCode",
-                "RedirectionValue": "internet",
+                "RedirectionValue": "",
                 "RedirectionModule": "internet",
                 "Data": null
               },
@@ -114,7 +114,7 @@
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
                 "RedirectionType": "FeatureCode",
-                "RedirectionValue": "tv",
+                "RedirectionValue": "",
                 "RedirectionModule": "tv",
                 "Data": null
               },
@@ -224,10 +224,10 @@
         "CategoryTheme": 3,
         "CategoryContent": [
           {
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": "",
+            "RedirectionType": "RedirectionUrl",
+            "RedirectionValue": "https://onelink.com",
             "RedirectionModule": "",
-            "ImageUrl": "http://www.google.com/xyz.png"
+            "ImageUrl": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
           }
         ]
       },
