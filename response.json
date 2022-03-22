@@ -225,7 +225,7 @@
             "RedirectionType": "RedirectionUrl",
             "RedirectionValue": "https://onelink.com",
             "RedirectionModule": "",
-            "ImageUrl": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
+            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
           }
         ]
       },
@@ -256,6 +256,7 @@
             "PromotionalTxt": "",
             "Title": "STOCK Update",
             "Icon": "https://cdn.imepay.com.np:9001/Content/Images/Feature/Add_TouchID.png",
+            "BtnIcon":"",
             "DisplayOrder": 1,
             "SubTitle": "Get the latest Nepse view",
             "BtnLabel": "VIEW MORE",
