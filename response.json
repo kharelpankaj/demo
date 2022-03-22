@@ -226,6 +226,12 @@
             "RedirectionValue": "https://onelink.com",
             "RedirectionModule": "",
             "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
+          },
+          {
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "stockbroker",
+            "RedirectionModule": "stockbroker",
+            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
           }
         ]
       },
