@@ -191,11 +191,16 @@
         "CategoryTheme": 2,
         "CategoryContent": [
           {
+            "PromotionalTxt": "",
+            "Title": "Pankaj Kharel",
+            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
             "DisplayOrder": 1,
-            "Msisdn": "9823239373",
-            "Module": "imePayWallet",
-            "Category": "sendMoney",
-            "TxnDetails": {
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "imePayWallet",
+            "RedirectionModule": "sendMoney",
+            "Data": {
               "ParamJson": [
                 {
                   "Key": "MOBILENUMBER",
@@ -205,16 +210,9 @@
               "Recent": {
                 "Amount": "10",
                 "SubTitle": "9867107328",
-                "Title": "Gsg Sfsg"
+                "Title": "Pankaj Kharel"
               }
-            },
-            "PhoneOS": "Android",
-            "PhoneBrand": "sdk_gphone_arm64",
-            "CreatedDateTime": "2022-03-10 14:16:59",
-            "TransactionID": "202203101416575085",
-            "ModuleIconUrl": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
-            "CustomerImage": "9867107328_Customer_Profile_Image_00000000-0000-0000-0000-000000000000_2022-03-03.jpeg",
-            "UseHandler": true
+            }
           }
         ]
       },
@@ -237,16 +235,15 @@
         "CategoryTheme": 4,
         "CategoryContent": [
           {
+            "PromotionalTxt": "",
+            "Title": "Verify Email",
+            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
             "DisplayOrder": 1,
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": "",
-            "Title": "Verify Email"
-          },
-          {
-            "DisplayOrder": 2,
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": "",
-            "Title": "Verify KYC"
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "imePayWallet",
+            "RedirectionModule": "sendMoney"
           }
         ]
       },
@@ -256,22 +253,17 @@
         "CategoryTheme": 5,
         "CategoryContent": [
           {
+            "PromotionalTxt": "",
+            "Title": "STOCK Update",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/Feature/Add_TouchID.png",
             "DisplayOrder": 1,
-            "Title": "Subscribe IPO news & results",
-            "SubTitle": "Get all the update about the latest NEPSE",
-            "ImageUrl": "",
-            "ButtonLbl": "Subscribe",
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": ""
-          },
-          {
-            "DisplayOrder": 2,
-            "Title": "Invite & Get Rewards",
-            "SubTitle": "Get all the update about the latest NEPSE",
-            "ImageUrl": "",
-            "ButtonLbl": "Invite",
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": ""
+            "SubTitle": "Get the latest Nepse view",
+            "BtnLabel": "VIEW MORE",
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "stock",
+            "RedirectionModule": "stock"
           }
         ]
       },
