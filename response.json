@@ -3,12 +3,29 @@
   "ResponseDescription": "Success",
   "ResponseData": {
     "UserDetail": {
-      "UserFullName": "Pankaj Kharel",
-      "AccCode": "CS1100709",
-      "UserType": "Customer",
-      "KYCApproved": true,
-      "IsEmailVerified": true
-    },
+	"UserFullName": "Pankaj Kharel",
+	"AccCode": "CS1100709",
+	"UserType": "Customer",
+	"KYCApproved": "Y",
+	"WalletType": "102",
+	"CheckUpdate": "54|12|true",
+	"Email": "",
+	"DobDateFormat": "AD",
+	"Dob": null,
+	
+	"NfcCardNo": "",
+	"Msisdn": null,
+	"IsPinSet": true,
+	"ProfileImage": "Handler/ImageHandler.ashx?img=uUnC%2fJJjPWDsDCI7mFlfi%2bFdS8%2f5xsvi2TY1Z7Lw4gqkbRoSp7sE20havs%2bqgfuOqFynmSaAGhy73Ura2HuX7vwCywUM1GZ%2bJixOPHT6A6gnM9B0WlswuHCfJUFeq%2f1p",
+	"IsEmailVerified": false,
+	"IsNomineeAdded": true,
+	"Nominee": {
+		"Relationship": "Father",
+		"NomineeName": "??????",
+		"NomineeMsisdn": "9840504838"
+	},
+	"IsRaffle": true
+},
     "WalletDetail": {
       "TotalBalance": 532,
       "RewardPoints": 18000,
