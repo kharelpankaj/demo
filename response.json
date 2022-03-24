@@ -200,6 +200,176 @@
                 "Data": null
               }
             ]
+          },
+         {
+            "Title": "Stock Market",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 4,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "stockbroker",
+            "RedirectionModule": "stockbroker",
+            "Data": null,
+            "SubCategory": [
+            ]
+          },
+          {
+            "Title": "Insurance",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 5,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "insurance",
+            "RedirectionModule": "insurance",
+            "Data": null,
+            "SubCategory": [
+             
+            ]
+          },
+          {
+            "Title": "Government",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 6,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "government",
+            "RedirectionModule": "government",
+            "Data": null,
+            "SubCategory": [
+              
+            ]
+          },
+            {
+            "Title": "Payments",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 7,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null,
+            "SubCategory": [
+              {
+                "PromotionalTxt": "",
+                "Title": "School",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 1,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "school",
+                "RedirectionModule": "school",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "College",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 2,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "college",
+                "RedirectionModule": "college",
+                "Data": null
+              }
+            
+            ]
+          },
+          {
+            "Title": "Entertainment",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 1,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null,
+            "SubCategory": [
+              {
+                "PromotionalTxt": "",
+                "Title": "OTT Subscription",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 1,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "ott",
+                "RedirectionModule": "ott",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Movies",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "movie",
+                "RedirectionModule": "movie",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Voting",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "voting",
+                "RedirectionModule": "ticketing",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Events",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "events",
+                "RedirectionModule": "ticketing",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "More",
+                "Icon": "http://www.google.com/abc.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "Menu",
+                "RedirectionValue": "",
+                "RedirectionModule": "",
+                "Data": null
+              }
+            ]
+          },
+          {
+            "Title": "More",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 1,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null
+            
           }
         ]
       },
