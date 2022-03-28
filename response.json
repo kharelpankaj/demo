@@ -337,25 +337,13 @@
                 "RedirectionValue": "events",
                 "RedirectionModule": "ticketing",
                 "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "More",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/quickpayment.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "Menu",
-                "RedirectionValue": "",
-                "RedirectionModule": "",
-                "Data": null
               }
             ]
           },
           {
             "Title": "More",
             "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/quickpayment.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
