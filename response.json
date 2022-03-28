@@ -541,6 +541,71 @@
           "Data": null
         }
       ]
+    },
+    "FotterMenu": {
+      "CategoryTitle": "Sending Options",
+      "CategoryContent": [
+        {
+          "Title": "IME Pay Wallet",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/p2p.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "imePayWallet",
+          "RedirectionModule": "sendMoney",
+          "Data": null
+        },
+        {
+          "Title": "IME Domestic Remittance",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/imedomestic.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "cashPickUp",
+          "RedirectionModule": "sendMoney",
+          "Data": null
+        },
+        {
+          "Title": "Bank Transfer",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/banktransfer.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "bankDeposit",
+          "RedirectionModule": "sendMoney",
+          "Data": null
+        },
+        {
+          "Title": "Coperative Transfer",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/cooperative.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "COOPERATIVE",
+          "RedirectionModule": "COOPERATIVE",
+          "Data": null
+        },
+        {
+          "Title": "Microfinance Transfer",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/microfinance.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "MFIN",
+          "RedirectionModule": "MFIN",
+          "Data": null
+        }
+      ]
     }
   }
 }
