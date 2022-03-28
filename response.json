@@ -42,7 +42,7 @@
           {
             "Title": "Recharge",
             "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/recharge.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
@@ -54,7 +54,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Mobile Recharge",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/mobile.png",
                 "DisplayOrder": 1,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -66,7 +66,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Landline Recharge",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/landline.png",
                 "DisplayOrder": 2,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -78,7 +78,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Data Packs",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/data.png",
                 "DisplayOrder": 3,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -92,7 +92,7 @@
           {
             "Title": "Household Bills",
             "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
@@ -104,7 +104,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Electricity Bill",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/electricity.png",
                 "DisplayOrder": 1,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -116,7 +116,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Internet",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/internet.png",
                 "DisplayOrder": 3,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -128,7 +128,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Television",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/tv.png",
                 "DisplayOrder": 3,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -140,7 +140,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Waste Management",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/wastemanagement.png",
                 "DisplayOrder": 3,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -152,7 +152,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Water Bill",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/waterbill.png",
                 "DisplayOrder": 3,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -166,7 +166,7 @@
           {
             "Title": "Travel",
             "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/travel.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
@@ -178,7 +178,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Flight",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/flight.png",
                 "DisplayOrder": 1,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -190,7 +190,7 @@
               {
                 "PromotionalTxt": "",
                 "Title": "Cable Car",
-                "Icon": "http://www.google.com/abc.png",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/cablecar.png",
                 "DisplayOrder": 2,
                 "IsDisabled": false,
                 "DisableMesg": "Temporaliy Down",
@@ -200,176 +200,6 @@
                 "Data": null
               }
             ]
-          },
-         {
-            "Title": "Stock Market",
-            "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
-            "DisplayOrder": 4,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "FeatureCode",
-            "RedirectionValue": "stockbroker",
-            "RedirectionModule": "stockbroker",
-            "Data": null,
-            "SubCategory": [
-            ]
-          },
-          {
-            "Title": "Insurance",
-            "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
-            "DisplayOrder": 5,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "FeatureCode",
-            "RedirectionValue": "insurance",
-            "RedirectionModule": "insurance",
-            "Data": null,
-            "SubCategory": [
-             
-            ]
-          },
-          {
-            "Title": "Government",
-            "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
-            "DisplayOrder": 6,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "FeatureCode",
-            "RedirectionValue": "government",
-            "RedirectionModule": "government",
-            "Data": null,
-            "SubCategory": [
-              
-            ]
-          },
-            {
-            "Title": "Payments",
-            "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
-            "DisplayOrder": 7,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null,
-            "SubCategory": [
-              {
-                "PromotionalTxt": "",
-                "Title": "School",
-                "Icon": "http://www.google.com/abc.png",
-                "DisplayOrder": 1,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "school",
-                "RedirectionModule": "school",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "College",
-                "Icon": "http://www.google.com/abc.png",
-                "DisplayOrder": 2,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "college",
-                "RedirectionModule": "college",
-                "Data": null
-              }
-            
-            ]
-          },
-          {
-            "Title": "Entertainment",
-            "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
-            "DisplayOrder": 1,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null,
-            "SubCategory": [
-              {
-                "PromotionalTxt": "",
-                "Title": "OTT Subscription",
-                "Icon": "http://www.google.com/abc.png",
-                "DisplayOrder": 1,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "ott",
-                "RedirectionModule": "ott",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Movies",
-                "Icon": "http://www.google.com/abc.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "movie",
-                "RedirectionModule": "movie",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Voting",
-                "Icon": "http://www.google.com/abc.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "voting",
-                "RedirectionModule": "ticketing",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Events",
-                "Icon": "http://www.google.com/abc.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "events",
-                "RedirectionModule": "ticketing",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "More",
-                "Icon": "http://www.google.com/abc.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "Menu",
-                "RedirectionValue": "",
-                "RedirectionModule": "",
-                "Data": null
-              }
-            ]
-          },
-          {
-            "Title": "More",
-            "PromotionalTxt": "",
-            "Icon": "http://www.google.com/abc.png",
-            "DisplayOrder": 1,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null
-            
           }
         ]
       },
