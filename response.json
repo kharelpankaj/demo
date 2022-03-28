@@ -200,6 +200,169 @@
                 "Data": null
               }
             ]
+          },
+          {
+            "Title": "Stock Market",
+            "PromotionalTxt": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/stockmarket.png",
+            "DisplayOrder": 4,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "stockbroker",
+            "RedirectionModule": "stockbroker",
+            "Data": null,
+            "SubCategory": []
+          },
+          {
+            "Title": "Insurance",
+            "PromotionalTxt": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/insurance.png",
+            "DisplayOrder": 5,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "insurance",
+            "RedirectionModule": "insurance",
+            "Data": null,
+            "SubCategory": []
+          },
+          {
+            "Title": "Government",
+            "PromotionalTxt": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/government.png",
+            "DisplayOrder": 6,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "government",
+            "RedirectionModule": "government",
+            "Data": null,
+            "SubCategory": []
+          },
+          {
+            "Title": "Payments",
+            "PromotionalTxt": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/payment.png",
+            "DisplayOrder": 7,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null,
+            "SubCategory": [
+              {
+                "PromotionalTxt": "",
+                "Title": "School",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/school.png",
+                "DisplayOrder": 1,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "school",
+                "RedirectionModule": "school",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "College",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/school.png",
+                "DisplayOrder": 2,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "college",
+                "RedirectionModule": "college",
+                "Data": null
+              }
+            ]
+          },
+          {
+            "Title": "Entertainment",
+            "PromotionalTxt": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/entertainment.png",
+            "DisplayOrder": 1,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null,
+            "SubCategory": [
+              {
+                "PromotionalTxt": "",
+                "Title": "OTT Subscription",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/ott.png",
+                "DisplayOrder": 1,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "ott",
+                "RedirectionModule": "ott",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Movies",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/movies.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "movie",
+                "RedirectionModule": "movie",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Voting",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/voting.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "voting",
+                "RedirectionModule": "ticketing",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "Events",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/events.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "FeatureCode",
+                "RedirectionValue": "events",
+                "RedirectionModule": "ticketing",
+                "Data": null
+              },
+              {
+                "PromotionalTxt": "",
+                "Title": "More",
+                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/quickpayment.png",
+                "DisplayOrder": 3,
+                "IsDisabled": false,
+                "DisableMesg": "Temporaliy Down",
+                "RedirectionType": "Menu",
+                "RedirectionValue": "",
+                "RedirectionModule": "",
+                "Data": null
+              }
+            ]
+          },
+          {
+            "Title": "More",
+            "PromotionalTxt": "",
+            "Icon": "http://www.google.com/abc.png",
+            "DisplayOrder": 1,
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "Menu",
+            "RedirectionValue": "",
+            "RedirectionModule": "",
+            "Data": null
           }
         ]
       },
