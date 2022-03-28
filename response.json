@@ -486,6 +486,61 @@
           }
         ]
       }
-    ]
+    ],
+    "HeaderMenu": {
+      "CategoryTitle": "Account Options",
+      "DisplayOrder": 1,
+      "CategoryTheme": 1,
+      "CategoryContent": [
+        {
+          "Title": "Withdraw Money",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/recharge.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "withdrawMoney",
+          "RedirectionModule": "withdrawMoney",
+          "Data": null
+        },
+        {
+          "Title": "Link Bank",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "linkBank",
+          "RedirectionModule": "profile",
+          "Data": null
+        },
+        {
+          "Title": "Payment Requests",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "sendrequest",
+          "RedirectionModule": "sendrequest",
+          "Data": null
+        },
+        {
+          "Title": "Invitation Rewards",
+          "PromotionalTxt": "",
+          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
+          "DisplayOrder": 1,
+          "IsDisabled": false,
+          "DisableMesg": "Temporaliy Down",
+          "RedirectionType": "FeatureCode",
+          "RedirectionValue": "invite",
+          "RedirectionModule": "profile",
+          "Data": null
+        }
+      ]
+    }
   }
 }
