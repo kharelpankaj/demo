@@ -445,23 +445,33 @@
         ]
       },
       {
-        "CategoryTitle": "Entertainment & Games",
+        "CategoryTitle": "Online Shopping",
         "DisplayOrder": 6,
         "CategoryTheme": 6,
         "CategoryContent": [
           {
             "PromotionalTxt": "",
             "DisplayOrder": 1,
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": "",
-            "Title": "Dishome Go"
+            "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=l8%2fAJURMsyzGvqJLmdQ6VJ3xDPJPC7pHa85D9b5Sxv0%3d",
+            "RedirectionType": "RedirectionURL",
+            "RedirectionValue": "https://click.daraz.com.np/e/_688Dp",
+            "Title": "Darz"
           },
           {
+            "Logo": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=zHI1jn4yXYyNI2QCoxGRvVfbC%2fsZywNqZq%2fFZFHy9E4%3d",
             "PromotionalTxt": "",
             "DisplayOrder": 2,
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": "",
-            "Title": "Kathmandu Rider"
+            "RedirectionType": "RedirectionURL",
+            "RedirectionValue": "https://www.sastodeal.com/",
+            "Title": "Sastodeal"
+          },
+          {
+            "Logo": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=gYWCX8xqcuzSMEIjdP%2br6A9GgoNL4sNyN80FneyGz2RuSXLzr7sqL8nDza9P7dtv",
+            "PromotionalTxt": "",
+            "DisplayOrder": 2,
+            "RedirectionType": "RedirectionURL",
+            "RedirectionValue": "https://www.gyapu.com/",
+            "Title": "Gyapu"
           }
         ]
       },
@@ -473,16 +483,22 @@
           {
             "PromotionalTxt": "",
             "DisplayOrder": 1,
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": "",
-            "Title": "Bhoj Deal"
+            "RedirectionType": "RedirectionURL",
+            "RedirectionValue": "https://thulo.com/",
+            "Title": "Thulo Pasal Pvt Ltd",
+            "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=3YrNB3nc0TUxp6iOPPtf%2fyEX2wWkzVyHf0%2bvMWGvjkg5RXlp1hPHtlNBDvsUWAMu",
+            "IsDisabled": false,
+            "DisableMesg": "Service disabled for 3 hours"
           },
           {
             "PromotionalTxt": "",
-            "DisplayOrder": 2,
-            "RedirectionType": "FeatureCode|RedirectionURL|DynamicLink",
-            "RedirectionValue": "",
-            "Title": "Foodmandu"
+            "DisplayOrder": 1,
+            "RedirectionType": "RedirectionURL",
+            "RedirectionValue": "https://thulo.com/",
+            "Title": "Neostore",
+            "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=qYCGVg21bWhv3vc6F%2fAX9L093YYX7IAYZyD8DR1wednk9r5%2bA8XYlfk4DrEeJnJY",
+            "IsDisabled": true,
+            "DisableMesg": "Service disabled for 3 hours"
           }
         ]
       }
