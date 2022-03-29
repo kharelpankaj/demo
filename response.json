@@ -91,7 +91,7 @@
           },
           {
             "Title": "Household Bills",
-            "PromotionalTxt": "",
+            "PromotionalTxt": "New",
             "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
@@ -216,7 +216,7 @@
           },
           {
             "Title": "Insurance",
-            "PromotionalTxt": "",
+            "PromotionalTxt": "Get 2% cashback",
             "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/insurance.png",
             "DisplayOrder": 5,
             "IsDisabled": false,
@@ -253,7 +253,7 @@
             "Data": null,
             "SubCategory": [
               {
-                "PromotionalTxt": "",
+                "PromotionalTxt": "Summer Session",
                 "Title": "School",
                 "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/school.png",
                 "DisplayOrder": 1,
