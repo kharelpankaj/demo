@@ -2,20 +2,20 @@
   "ResponseCode": "100",
   "ResponseDescription": "Success",
   "ResponseData": {
-    "UserDetail": {
+    "UserInfo": {
       "UserFullName": "Pankaj Kharel",
-      "AccCode": "CS1100709",
+      "AccCode": "CS1100884",
       "UserType": "Customer",
       "KYCApproved": "N",
-      "WalletType": "102",
-      "CheckUpdate": "54|12|true",
-      "Email": "",
+      "WalletType": "111",
+      "CheckUpdate": "54|3.4.0|true",
+      "Email": "kharelpankaj@yahoo.com",
       "DobDateFormat": "AD",
-      "Dob": null,
+      "Dob": "1976-04-26",
       "NfcCardNo": "",
-      "Msisdn": null,
+      "Msisdn": "9823239373",
       "IsPinSet": true,
-      "ProfileImage": "Handler/ImageHandler.ashx?img=uUnC%2fJJjPWDsDCI7mFlfi%2bFdS8%2f5xsvi2TY1Z7Lw4gqkbRoSp7sE20havs%2bqgfuOqFynmSaAGhy73Ura2HuX7vwCywUM1GZ%2bJixOPHT6A6gnM9B0WlswuHCfJUFeq%2f1p",
+      "ProfileImage": "Handler/ImageHandler.ashx?img=uUnC%2fJJjPWDsDCI7mFlfi%2bFdS8%2f5xsvi2TY1Z7Lw4gqkbRoSp7sE20havs%2bqgfuOqFynmSaAGhy73Ura2HuX7mld5y9vC9ov%2fRwlcXueN8y5L%2fXQPKufYAiY9rVyALhS",
       "IsEmailVerified": false,
       "IsNomineeAdded": true,
       "Nominee": {
@@ -25,603 +25,1230 @@
       },
       "IsRaffle": true
     },
-    "WalletDetail": {
-      "Amount": 532,
-      "TotalCreditPoints": 18000,
-      "InterestAmount": 65.12,
-      "MemberType": "P",
+    "NeaOffices": [
+      {
+        "Officecode": 243,
+        "OfficeName": "Aanbu DC"
+      },
+      {
+        "Officecode": 273,
+        "OfficeName": "Amuwa DC"
+      },
+      {
+        "Officecode": 268,
+        "OfficeName": "Anarmani DC"
+      },
+      {
+        "Officecode": 248,
+        "OfficeName": "Argakhanchi DC"
+      },
+      {
+        "Officecode": 345,
+        "OfficeName": "Attariya DC"
+      },
+      {
+        "Officecode": 237,
+        "OfficeName": "Badegaun"
+      },
+      {
+        "Officecode": 299,
+        "OfficeName": "Baglung DC"
+      },
+      {
+        "Officecode": 215,
+        "OfficeName": "Balaju DC"
+      },
+      {
+        "Officecode": 219,
+        "OfficeName": "Baneshwor DC"
+      },
+      {
+        "Officecode": 373,
+        "OfficeName": "Bansgadhi DC"
+      },
+      {
+        "Officecode": 267,
+        "OfficeName": "Bardaghat SDC"
+      },
+      {
+        "Officecode": 317,
+        "OfficeName": "Belbari DC"
+      },
+      {
+        "Officecode": 339,
+        "OfficeName": "Beltar DC"
+      },
+      {
+        "Officecode": 265,
+        "OfficeName": "Bhadrapur"
+      },
+      {
+        "Officecode": 272,
+        "OfficeName": "Bhairahawa DC"
+      },
+      {
+        "Officecode": 245,
+        "OfficeName": "Bhaktapur DC"
+      },
+      {
+        "Officecode": 211,
+        "OfficeName": "Bharatpur"
+      },
+      {
+        "Officecode": 270,
+        "OfficeName": "Bhiman DC"
+      },
+      {
+        "Officecode": 316,
+        "OfficeName": "Bhojpur DC"
+      },
+      {
+        "Officecode": 285,
+        "OfficeName": "Biratnagar DC"
+      },
+      {
+        "Officecode": 286,
+        "OfficeName": "Birgunj"
+      },
+      {
+        "Officecode": 333,
+        "OfficeName": "Budhabare SDC"
+      },
+      {
+        "Officecode": 223,
+        "OfficeName": "Budhanilkantha DC"
+      },
+      {
+        "Officecode": 229,
+        "OfficeName": "Butwal DC"
+      },
+      {
+        "Officecode": 220,
+        "OfficeName": "Chabahil DC"
+      },
+      {
+        "Officecode": 315,
+        "OfficeName": "Chainpur DC"
+      },
+      {
+        "Officecode": 356,
+        "OfficeName": "Chandranigahpur"
+      },
+      {
+        "Officecode": 217,
+        "OfficeName": "Chapagaun"
+      },
+      {
+        "Officecode": 280,
+        "OfficeName": "Damak"
+      },
+      {
+        "Officecode": 241,
+        "OfficeName": "Damauli DC"
+      },
+      {
+        "Officecode": 224,
+        "OfficeName": "Dhading DC"
+      },
+      {
+        "Officecode": 344,
+        "OfficeName": "Dhandgadi DC"
+      },
+      {
+        "Officecode": 284,
+        "OfficeName": "Dhankuta DC"
+      },
+      {
+        "Officecode": 212,
+        "OfficeName": "Dharan DC  "
+      },
+      {
+        "Officecode": 269,
+        "OfficeName": "Dharke DC"
+      },
+      {
+        "Officecode": 320,
+        "OfficeName": "Dhulabari SDC"
+      },
+      {
+        "Officecode": 271,
+        "OfficeName": "Duhabi DC  "
+      },
+      {
+        "Officecode": 308,
+        "OfficeName": "Fikkal DC"
+      },
+      {
+        "Officecode": 235,
+        "OfficeName": "Gaidakot SDC"
+      },
+      {
+        "Officecode": 297,
+        "OfficeName": "Gaighat DC"
+      },
+      {
+        "Officecode": 225,
+        "OfficeName": "Gajuri DC"
+      },
+      {
+        "Officecode": 323,
+        "OfficeName": "Gaur"
+      },
+      {
+        "Officecode": 287,
+        "OfficeName": "Gauradah"
+      },
+      {
+        "Officecode": 359,
+        "OfficeName": "Gausala DC"
+      },
+      {
+        "Officecode": 250,
+        "OfficeName": "Ghorahi DC"
+      },
+      {
+        "Officecode": 238,
+        "OfficeName": "Gorkha DC"
+      },
+      {
+        "Officecode": 242,
+        "OfficeName": "Gulariya DC"
+      },
+      {
+        "Officecode": 290,
+        "OfficeName": "Gulmi DC"
+      },
+      {
+        "Officecode": 330,
+        "OfficeName": "Hanuman Nagar SDC"
+      },
+      {
+        "Officecode": 231,
+        "OfficeName": "Hetauda"
+      },
+      {
+        "Officecode": 292,
+        "OfficeName": "Ilam DC"
+      },
+      {
+        "Officecode": 281,
+        "OfficeName": "Inaruwa DC "
+      },
+      {
+        "Officecode": 264,
+        "OfficeName": "Itahari DC "
+      },
+      {
+        "Officecode": 331,
+        "OfficeName": "Jaleshor DC"
+      },
+      {
+        "Officecode": 261,
+        "OfficeName": "Janakpur DC"
+      },
+      {
+        "Officecode": 221,
+        "OfficeName": "Jorpati"
+      },
+      {
+        "Officecode": 318,
+        "OfficeName": "Kalaiya"
+      },
+      {
+        "Officecode": 351,
+        "OfficeName": "Kanchanpur DC (Saptari)"
+      },
+      {
+        "Officecode": 338,
+        "OfficeName": "Katari DC"
+      },
+      {
+        "Officecode": 247,
+        "OfficeName": "Kavre DC"
+      },
+      {
+        "Officecode": 234,
+        "OfficeName": "Kawasoti DC"
+      },
+      {
+        "Officecode": 306,
+        "OfficeName": "Khadbari DC"
+      },
+      {
+        "Officecode": 325,
+        "OfficeName": "Khajura"
+      },
+      {
+        "Officecode": 246,
+        "OfficeName": "Kirtipur DC"
+      },
+      {
+        "Officecode": 309,
+        "OfficeName": "Knagar DC"
+      },
+      {
+        "Officecode": 324,
+        "OfficeName": "Kohalpur"
+      },
+      {
+        "Officecode": 205,
+        "OfficeName": "Kuleshwor DC"
+      },
+      {
+        "Officecode": 216,
+        "OfficeName": "Lagankhel"
+      },
+      {
+        "Officecode": 293,
+        "OfficeName": "Lahan DC"
+      },
+      {
+        "Officecode": 251,
+        "OfficeName": "Lamahi DC"
+      },
+      {
+        "Officecode": 332,
+        "OfficeName": "Lamjung DC"
+      },
+      {
+        "Officecode": 228,
+        "OfficeName": "Lekhnath DC"
+      },
+      {
+        "Officecode": 218,
+        "OfficeName": "Lubhu"
+      },
+      {
+        "Officecode": 307,
+        "OfficeName": "Lumbini DC"
+      },
+      {
+        "Officecode": 222,
+        "OfficeName": "Maharajgunj DC"
+      },
+      {
+        "Officecode": 347,
+        "OfficeName": "Mahendranagar DC"
+      },
+      {
+        "Officecode": 239,
+        "OfficeName": "Majuwa DC"
+      },
+      {
+        "Officecode": 305,
+        "OfficeName": "Malangwa DC"
+      },
+      {
+        "Officecode": 296,
+        "OfficeName": "Manthali DC"
+      },
+      {
+        "Officecode": 334,
+        "OfficeName": "Mirchiya DC"
+      },
+      {
+        "Officecode": 362,
+        "OfficeName": "Mudhe DC"
+      },
+      {
+        "Officecode": 319,
+        "OfficeName": "Myagdi DC"
+      },
+      {
+        "Officecode": 214,
+        "OfficeName": "Naxal DC"
+      },
+      {
+        "Officecode": 313,
+        "OfficeName": "Nayamill DC"
+      },
+      {
+        "Officecode": 256,
+        "OfficeName": "Nepalgunj"
+      },
+      {
+        "Officecode": 279,
+        "OfficeName": "Nijgadh"
+      },
+      {
+        "Officecode": 232,
+        "OfficeName": "Nuwakot DC"
+      },
+      {
+        "Officecode": 355,
+        "OfficeName": "Okhaldhunga DC"
+      },
+      {
+        "Officecode": 263,
+        "OfficeName": "Palpa DC"
+      },
+      {
+        "Officecode": 262,
+        "OfficeName": "Palung DC"
+      },
+      {
+        "Officecode": 335,
+        "OfficeName": "Panauti DC"
+      },
+      {
+        "Officecode": 321,
+        "OfficeName": "Parasi DC"
+      },
+      {
+        "Officecode": 240,
+        "OfficeName": "Parbat DC"
+      },
+      {
+        "Officecode": 314,
+        "OfficeName": "Pashupatinagar DC"
+      },
+      {
+        "Officecode": 226,
+        "OfficeName": "Pokhara"
+      },
+      {
+        "Officecode": 227,
+        "OfficeName": "Pokhara Gramin "
+      },
+      {
+        "Officecode": 360,
+        "OfficeName": "Pokhariya DC"
+      },
+      {
+        "Officecode": 207,
+        "OfficeName": "Pulchowk DC"
+      },
+      {
+        "Officecode": 357,
+        "OfficeName": "Pyuthan DC"
+      },
+      {
+        "Officecode": 371,
+        "OfficeName": "Rajapur DC"
+      },
+      {
+        "Officecode": 329,
+        "OfficeName": "Rajbiraj DC"
+      },
+      {
+        "Officecode": 336,
+        "OfficeName": "Ramechhap DC"
+      },
+      {
+        "Officecode": 291,
+        "OfficeName": "Rangeli DC "
+      },
+      {
+        "Officecode": 288,
+        "OfficeName": "Rani sub DC"
+      },
+      {
+        "Officecode": 201,
+        "OfficeName": "Ratnapark DC"
+      },
+      {
+        "Officecode": 311,
+        "OfficeName": "Ridi DC"
+      },
+      {
+        "Officecode": 346,
+        "OfficeName": "Rukum"
+      },
+      {
+        "Officecode": 374,
+        "OfficeName": "Sakhuwa DC"
+      },
+      {
+        "Officecode": 352,
+        "OfficeName": "Sanischare DDC"
+      },
+      {
+        "Officecode": 322,
+        "OfficeName": "Sankhu DC"
+      },
+      {
+        "Officecode": 230,
+        "OfficeName": "Simara"
+      },
+      {
+        "Officecode": 233,
+        "OfficeName": "Sindhuli DC"
+      },
+      {
+        "Officecode": 312,
+        "OfficeName": "Siraha DC"
+      },
+      {
+        "Officecode": 353,
+        "OfficeName": "Surkhet"
+      },
+      {
+        "Officecode": 236,
+        "OfficeName": "Tandi"
+      },
+      {
+        "Officecode": 283,
+        "OfficeName": "Taulihawa DC"
+      },
+      {
+        "Officecode": 341,
+        "OfficeName": "Tehrathum DC"
+      },
+      {
+        "Officecode": 244,
+        "OfficeName": "Thimi DC"
+      },
+      {
+        "Officecode": 342,
+        "OfficeName": "Tikapur DC"
+      },
+      {
+        "Officecode": 328,
+        "OfficeName": "Triveni DC"
+      },
+      {
+        "Officecode": 252,
+        "OfficeName": "Tulsipur DC"
+      },
+      {
+        "Officecode": 295,
+        "OfficeName": "Urlabari"
+      },
+      {
+        "Officecode": 372,
+        "OfficeName": "Vurigaun DC"
+      }
+    ],
+    "KhanepaniOffices": [
+      {
+        "Officecode": 2,
+        "OfficeName": "BIRATNAGAR "
+      },
+      {
+        "Officecode": 11,
+        "OfficeName": "BIRGUNJ "
+      },
+      {
+        "Officecode": 15,
+        "OfficeName": "BUTWAL "
+      },
+      {
+        "Officecode": 20,
+        "OfficeName": "DHANGADI "
+      },
+      {
+        "Officecode": 19,
+        "OfficeName": "NEPALGUNJ "
+      }
+    ],
+    "TopupDenos": [
+      {
+        "Product": "BroadlinkBroadtel",
+        "DenoAmounts": [
+          "250.0000",
+          "500.0000"
+        ]
+      },
+      {
+        "Product": "BroadlinkLimited",
+        "DenoAmounts": [
+          "20.0000",
+          "500.0000",
+          "1500.0000"
+        ]
+      },
+      {
+        "Product": "BroadlinkUnlimited",
+        "DenoAmounts": [
+          "2000.0000",
+          "2260.0000"
+        ]
+      },
+      {
+        "Product": "DishHome",
+        "DenoAmounts": [
+          "500.0000",
+          "500.0000",
+          "700.0000",
+          "1000.0000",
+          "2000.0000",
+          "3000.0000",
+          "4000.0000",
+          "5000.0000",
+          "6000.0000",
+          "7000.0000",
+          "9000.0000",
+          "10000.0000"
+        ]
+      },
+      {
+        "Product": "NetTv",
+        "DenoAmounts": [
+          "50.0000",
+          "100.0000",
+          "200.0000",
+          "500.0000",
+          "1000.0000"
+        ]
+      },
+      {
+        "Product": "PrabhuTv",
+        "DenoAmounts": [
+          "300.0000",
+          "1600.0000",
+          "2200.0000",
+          "3000.0000",
+          "5500.0000",
+          "7500.0000",
+          "9000.0000"
+        ]
+      },
+      {
+        "Product": "SimTV",
+        "DenoAmounts": [
+          "50.0000",
+          "100.0000",
+          "250.0000",
+          "350.0000",
+          "400.0000",
+          "500.0000",
+          "1000.0000",
+          "2000.0000",
+          "5000.0000",
+          "7000.0000",
+          "9000.0000",
+          "10000.0000"
+        ]
+      },
+      {
+        "Product": "SmartCell",
+        "DenoAmounts": [
+          "20.0000",
+          "50.0000",
+          "100.0000",
+          "200.0000",
+          "500.0000",
+          "1000.0000"
+        ]
+      },
+      {
+        "Product": "UTL",
+        "DenoAmounts": [
+          "10.0000",
+          "20.0000",
+          "50.0000",
+          "100.0000",
+          "250.0000",
+          "500.0000",
+          "1000.0000"
+        ]
+      }
+    ],
+    "WalletDetails": {
+      "Amount": "12.00",
+      "TotalCreditPoints": "0",
+      "InterestAmount": null,
+      "MemberType": "U",
       "Status": null,
       "InterestDate": ""
     },
-    "HomeMenu": [
-      {
-        "CategoryTitle": "Services",
+    "OtherDetails": {
+      "RemitBonusAmount": "Upto Rs. 50 Bonus",
+      "SuperwalletInterestRate": "6.03",
+      "ReferAndEarnBonusAmount": "17.0000",
+      "GridCount": "3"
+    },
+    "MenuDetails": {
+      "HomeMenu": [
+        {
+          "CategoryTitle": "Services",
+          "DisplayOrder": 1,
+          "CategoryTheme": 1,
+          "CategoryContent": [
+            {
+              "Title": "Recharge",
+              "PromotionalTxt": "",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/recharge.png",
+              "DisplayOrder": 1,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "Menu",
+              "RedirectionValue": "",
+              "RedirectionModule": "",
+              "Data": null,
+              "SubCategory": [
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Mobile Recharge",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/mobile.png",
+                  "DisplayOrder": 1,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "mobileTopup",
+                  "RedirectionModule": "mobileTopup",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Landline Recharge",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/landline.png",
+                  "DisplayOrder": 2,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "landline",
+                  "RedirectionModule": "landline",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Data Packs",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/data.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "ncellData",
+                  "RedirectionModule": "Voice&Datapack",
+                  "Data": null
+                }
+              ]
+            },
+            {
+              "Title": "Household Bills",
+              "PromotionalTxt": "New",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
+              "DisplayOrder": 1,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "Menu",
+              "RedirectionValue": "",
+              "RedirectionModule": "",
+              "Data": null,
+              "SubCategory": [
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Electricity Bill",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/electricity.png",
+                  "DisplayOrder": 1,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "electricity",
+                  "RedirectionModule": "electricity",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Internet",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/internet.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "",
+                  "RedirectionModule": "internet",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Television",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/tv.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "",
+                  "RedirectionModule": "tv",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Waste Management",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/wastemanagement.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "wastemanagement",
+                  "RedirectionModule": "wastemanagement",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Water Bill",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/waterbill.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "khanePani",
+                  "RedirectionModule": "khanePani",
+                  "Data": null
+                }
+              ]
+            },
+            {
+              "Title": "Travel",
+              "PromotionalTxt": "",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/travel.png",
+              "DisplayOrder": 1,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "Menu",
+              "RedirectionValue": "",
+              "RedirectionModule": "",
+              "Data": null,
+              "SubCategory": [
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Flight",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/flight.png",
+                  "DisplayOrder": 1,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "airlines",
+                  "RedirectionModule": "airlines",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Cable Car",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/cablecar.png",
+                  "DisplayOrder": 2,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "cableCar",
+                  "RedirectionModule": "cableCar",
+                  "Data": null
+                }
+              ]
+            },
+            {
+              "Title": "Stock Market",
+              "PromotionalTxt": "",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/stockmarket.png",
+              "DisplayOrder": 4,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "FeatureCode",
+              "RedirectionValue": "stockbroker",
+              "RedirectionModule": "stockbroker",
+              "Data": null,
+              "SubCategory": []
+            },
+            {
+              "Title": "Insurance",
+              "PromotionalTxt": "Get 2% cashback",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/insurance.png",
+              "DisplayOrder": 5,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "FeatureCode",
+              "RedirectionValue": "insurance",
+              "RedirectionModule": "insurance",
+              "Data": null,
+              "SubCategory": []
+            },
+            {
+              "Title": "Government",
+              "PromotionalTxt": "",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/government.png",
+              "DisplayOrder": 6,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "FeatureCode",
+              "RedirectionValue": "government",
+              "RedirectionModule": "government",
+              "Data": null,
+              "SubCategory": []
+            },
+            {
+              "Title": "Payments",
+              "PromotionalTxt": "",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/payment.png",
+              "DisplayOrder": 7,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "Menu",
+              "RedirectionValue": "",
+              "RedirectionModule": "",
+              "Data": null,
+              "SubCategory": [
+                {
+                  "PromotionalTxt": "Summer Session",
+                  "Title": "School",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/school.png",
+                  "DisplayOrder": 1,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "school",
+                  "RedirectionModule": "school",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "College",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/school.png",
+                  "DisplayOrder": 2,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "college",
+                  "RedirectionModule": "college",
+                  "Data": null
+                }
+              ]
+            },
+            {
+              "Title": "Entertainment",
+              "PromotionalTxt": "",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/entertainment.png",
+              "DisplayOrder": 1,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "Menu",
+              "RedirectionValue": "",
+              "RedirectionModule": "",
+              "Data": null,
+              "SubCategory": [
+                {
+                  "PromotionalTxt": "",
+                  "Title": "OTT Subscription",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/ott.png",
+                  "DisplayOrder": 1,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "ott",
+                  "RedirectionModule": "ott",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Movies",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/movies.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "movie",
+                  "RedirectionModule": "movie",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Voting",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/voting.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "voting",
+                  "RedirectionModule": "ticketing",
+                  "Data": null
+                },
+                {
+                  "PromotionalTxt": "",
+                  "Title": "Events",
+                  "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/events.png",
+                  "DisplayOrder": 3,
+                  "IsDisabled": false,
+                  "DisableMesg": "Temporaliy Down",
+                  "RedirectionType": "FeatureCode",
+                  "RedirectionValue": "events",
+                  "RedirectionModule": "ticketing",
+                  "Data": null
+                }
+              ]
+            },
+            {
+              "Title": "More",
+              "PromotionalTxt": "",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/quickpayment.png",
+              "DisplayOrder": 1,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "Menu",
+              "RedirectionValue": "",
+              "RedirectionModule": "",
+              "Data": null
+            }
+          ]
+        },
+        {
+          "CategoryTitle": "RecentMoneyTransfer",
+          "PromotionalTxt": "",
+          "DisplayOrder": 2,
+          "CategoryTheme": 2,
+          "CategoryContent": [
+            {
+              "PromotionalTxt": "",
+              "Title": "Pankaj Kharel",
+              "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
+              "DisplayOrder": 1,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "FeatureCode",
+              "RedirectionValue": "imePayWallet",
+              "RedirectionModule": "sendMoney",
+              "Data": {
+                "ParamJson": [
+                  {
+                    "Key": "MOBILENUMBER",
+                    "Value": "9867107328"
+                  }
+                ],
+                "Recent": {
+                  "Amount": "10",
+                  "SubTitle": "9867107328",
+                  "Title": "Pankaj Kharel"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "CategoryTitle": "Promotional Banner",
+          "DisplayOrder": 3,
+          "CategoryTheme": 3,
+          "CategoryContent": [
+            {
+              "RedirectionType": "RedirectionUrl",
+              "RedirectionValue": "https://onelink.com",
+              "RedirectionModule": "",
+              "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
+            },
+            {
+              "RedirectionType": "FeatureCode",
+              "RedirectionValue": "stockbroker",
+              "RedirectionModule": "stockbroker",
+              "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
+            }
+          ]
+        },
+        {
+          "CategoryTitle": "Recommendation",
+          "DisplayOrder": 4,
+          "CategoryTheme": 4,
+          "CategoryContent": [
+            {
+              "PromotionalTxt": "",
+              "Title": "Verify Email",
+              "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
+              "DisplayOrder": 1,
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "FeatureCode",
+              "RedirectionValue": "imePayWallet",
+              "RedirectionModule": "sendMoney"
+            }
+          ]
+        },
+        {
+          "CategoryTitle": "Invest",
+          "DisplayOrder": 5,
+          "CategoryTheme": 5,
+          "CategoryContent": [
+            {
+              "PromotionalTxt": "",
+              "Title": "STOCK Update",
+              "Icon": "https://cdn.imepay.com.np:9001/Content/Images/Feature/Add_TouchID.png",
+              "BtnIcon": "",
+              "DisplayOrder": 1,
+              "SubTitle": "Get the latest Nepse view",
+              "BtnLabel": "VIEW MORE",
+              "IsDisabled": false,
+              "DisableMesg": "Temporaliy Down",
+              "RedirectionType": "FeatureCode",
+              "RedirectionValue": "stock",
+              "RedirectionModule": "stock"
+            }
+          ]
+        },
+        {
+          "CategoryTitle": "Online Shopping",
+          "DisplayOrder": 6,
+          "CategoryTheme": 6,
+          "CategoryContent": [
+            {
+              "PromotionalTxt": "",
+              "DisplayOrder": 1,
+              "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=l8%2fAJURMsyzGvqJLmdQ6VJ3xDPJPC7pHa85D9b5Sxv0%3d",
+              "RedirectionType": "RedirectionURL",
+              "RedirectionValue": "https://click.daraz.com.np/e/_688Dp",
+              "Title": "Darz"
+            },
+            {
+              "Logo": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=zHI1jn4yXYyNI2QCoxGRvVfbC%2fsZywNqZq%2fFZFHy9E4%3d",
+              "PromotionalTxt": "",
+              "DisplayOrder": 2,
+              "RedirectionType": "RedirectionURL",
+              "RedirectionValue": "https://www.sastodeal.com/",
+              "Title": "Sastodeal"
+            },
+            {
+              "Logo": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=gYWCX8xqcuzSMEIjdP%2br6A9GgoNL4sNyN80FneyGz2RuSXLzr7sqL8nDza9P7dtv",
+              "PromotionalTxt": "",
+              "DisplayOrder": 2,
+              "RedirectionType": "RedirectionURL",
+              "RedirectionValue": "https://www.gyapu.com/",
+              "Title": "Gyapu"
+            }
+          ]
+        },
+        {
+          "CategoryTitle": "Food",
+          "DisplayOrder": 7,
+          "CategoryTheme": 6,
+          "CategoryContent": [
+            {
+              "PromotionalTxt": "",
+              "DisplayOrder": 1,
+              "RedirectionType": "RedirectionURL",
+              "RedirectionValue": "https://thulo.com/",
+              "Title": "Thulo Pasal Pvt Ltd",
+              "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=3YrNB3nc0TUxp6iOPPtf%2fyEX2wWkzVyHf0%2bvMWGvjkg5RXlp1hPHtlNBDvsUWAMu",
+              "IsDisabled": false,
+              "DisableMesg": "Service disabled for 3 hours"
+            },
+            {
+              "PromotionalTxt": "",
+              "DisplayOrder": 1,
+              "RedirectionType": "RedirectionURL",
+              "RedirectionValue": "https://thulo.com/",
+              "Title": "Neostore",
+              "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=qYCGVg21bWhv3vc6F%2fAX9L093YYX7IAYZyD8DR1wednk9r5%2bA8XYlfk4DrEeJnJY",
+              "IsDisabled": true,
+              "DisableMesg": "Service disabled for 3 hours"
+            }
+          ]
+        }
+      ],
+      "HeaderMenu": {
+        "CategoryTitle": "Account Options",
         "DisplayOrder": 1,
         "CategoryTheme": 1,
         "CategoryContent": [
           {
-            "Title": "Recharge",
+            "Title": "Withdraw Money",
             "PromotionalTxt": "",
             "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/recharge.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null,
-            "SubCategory": [
-              {
-                "PromotionalTxt": "",
-                "Title": "Mobile Recharge",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/mobile.png",
-                "DisplayOrder": 1,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "mobileTopup",
-                "RedirectionModule": "mobileTopup",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Landline Recharge",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/landline.png",
-                "DisplayOrder": 2,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "landline",
-                "RedirectionModule": "landline",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Data Packs",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/data.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "ncellData",
-                "RedirectionModule": "Voice&Datapack",
-                "Data": null
-              }
-            ]
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "withdrawMoney",
+            "RedirectionModule": "withdrawMoney",
+            "Data": null
           },
           {
-            "Title": "Household Bills",
-            "PromotionalTxt": "New",
+            "Title": "Link Bank",
+            "PromotionalTxt": "",
             "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null,
-            "SubCategory": [
-              {
-                "PromotionalTxt": "",
-                "Title": "Electricity Bill",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/electricity.png",
-                "DisplayOrder": 1,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "electricity",
-                "RedirectionModule": "electricity",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Internet",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/internet.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "",
-                "RedirectionModule": "internet",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Television",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/tv.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "",
-                "RedirectionModule": "tv",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Waste Management",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/wastemanagement.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "wastemanagement",
-                "RedirectionModule": "wastemanagement",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Water Bill",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/waterbill.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "khanePani",
-                "RedirectionModule": "khanePani",
-                "Data": null
-              }
-            ]
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "linkBank",
+            "RedirectionModule": "profile",
+            "Data": null
           },
           {
-            "Title": "Travel",
+            "Title": "Payment Requests",
             "PromotionalTxt": "",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/travel.png",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null,
-            "SubCategory": [
-              {
-                "PromotionalTxt": "",
-                "Title": "Flight",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/flight.png",
-                "DisplayOrder": 1,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "airlines",
-                "RedirectionModule": "airlines",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Cable Car",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/cablecar.png",
-                "DisplayOrder": 2,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "cableCar",
-                "RedirectionModule": "cableCar",
-                "Data": null
-              }
-            ]
-          },
-          {
-            "Title": "Stock Market",
-            "PromotionalTxt": "",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/stockmarket.png",
-            "DisplayOrder": 4,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
             "RedirectionType": "FeatureCode",
-            "RedirectionValue": "stockbroker",
-            "RedirectionModule": "stockbroker",
-            "Data": null,
-            "SubCategory": []
+            "RedirectionValue": "sendrequest",
+            "RedirectionModule": "sendrequest",
+            "Data": null
           },
           {
-            "Title": "Insurance",
-            "PromotionalTxt": "Get 2% cashback",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/insurance.png",
-            "DisplayOrder": 5,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "FeatureCode",
-            "RedirectionValue": "insurance",
-            "RedirectionModule": "insurance",
-            "Data": null,
-            "SubCategory": []
-          },
-          {
-            "Title": "Government",
+            "Title": "Invitation Rewards",
             "PromotionalTxt": "",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/government.png",
-            "DisplayOrder": 6,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "FeatureCode",
-            "RedirectionValue": "government",
-            "RedirectionModule": "government",
-            "Data": null,
-            "SubCategory": []
-          },
-          {
-            "Title": "Payments",
-            "PromotionalTxt": "",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/payment.png",
-            "DisplayOrder": 7,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null,
-            "SubCategory": [
-              {
-                "PromotionalTxt": "Summer Session",
-                "Title": "School",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/school.png",
-                "DisplayOrder": 1,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "school",
-                "RedirectionModule": "school",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "College",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/school.png",
-                "DisplayOrder": 2,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "college",
-                "RedirectionModule": "college",
-                "Data": null
-              }
-            ]
-          },
-          {
-            "Title": "Entertainment",
-            "PromotionalTxt": "",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/entertainment.png",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
-            "Data": null,
-            "SubCategory": [
-              {
-                "PromotionalTxt": "",
-                "Title": "OTT Subscription",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/ott.png",
-                "DisplayOrder": 1,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "ott",
-                "RedirectionModule": "ott",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Movies",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/movies.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "movie",
-                "RedirectionModule": "movie",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Voting",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/voting.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "voting",
-                "RedirectionModule": "ticketing",
-                "Data": null
-              },
-              {
-                "PromotionalTxt": "",
-                "Title": "Events",
-                "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/events.png",
-                "DisplayOrder": 3,
-                "IsDisabled": false,
-                "DisableMesg": "Temporaliy Down",
-                "RedirectionType": "FeatureCode",
-                "RedirectionValue": "events",
-                "RedirectionModule": "ticketing",
-                "Data": null
-              }
-            ]
-          },
-          {
-            "Title": "More",
-            "PromotionalTxt": "",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/quickpayment.png",
-            "DisplayOrder": 1,
-            "IsDisabled": false,
-            "DisableMesg": "Temporaliy Down",
-            "RedirectionType": "Menu",
-            "RedirectionValue": "",
-            "RedirectionModule": "",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "invite",
+            "RedirectionModule": "profile",
             "Data": null
           }
         ]
       },
-      {
-        "CategoryTitle": "RecentMoneyTransfer",
-        "PromotionalTxt": "",
-        "DisplayOrder": 2,
-        "CategoryTheme": 2,
+      "FooterMenu": {
+        "CategoryTitle": "Sending Options",
         "CategoryContent": [
           {
+            "Title": "IME Pay Wallet",
             "PromotionalTxt": "",
-            "Title": "Pankaj Kharel",
-            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/p2p.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
             "RedirectionType": "FeatureCode",
             "RedirectionValue": "imePayWallet",
             "RedirectionModule": "sendMoney",
-            "Data": {
-              "ParamJson": [
-                {
-                  "Key": "MOBILENUMBER",
-                  "Value": "9867107328"
-                }
-              ],
-              "Recent": {
-                "Amount": "10",
-                "SubTitle": "9867107328",
-                "Title": "Pankaj Kharel"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "CategoryTitle": "Promotional Banner",
-        "DisplayOrder": 3,
-        "CategoryTheme": 3,
-        "CategoryContent": [
-          {
-            "RedirectionType": "RedirectionUrl",
-            "RedirectionValue": "https://onelink.com",
-            "RedirectionModule": "",
-            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
+            "Data": null
           },
           {
-            "RedirectionType": "FeatureCode",
-            "RedirectionValue": "stockbroker",
-            "RedirectionModule": "stockbroker",
-            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=7DsKM2vicDG32TdgcB1hCq8BPzMKntfy6DORqctfctH64ib3lqhZhzR3oQDoPNx6"
-          }
-        ]
-      },
-      {
-        "CategoryTitle": "Recommendation",
-        "DisplayOrder": 4,
-        "CategoryTheme": 4,
-        "CategoryContent": [
-          {
+            "Title": "IME Domestic Remittance",
             "PromotionalTxt": "",
-            "Title": "Verify Email",
-            "Icon": "http://202.166.194.89:8787/Handler/ImageHandler.ashx?img=1wYf4H0TU4HCBoGdZfXiWLHsloJsAsJrFCOk%2bzXnZFEgXLYREHCu160cmzCK61iGegGp450oXYO2ku0QrRLQP9j1KfrNUUr0MQznLDr5XxzOAnXzjG0RfiZUdJch6gjV",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/imedomestic.png",
             "DisplayOrder": 1,
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
             "RedirectionType": "FeatureCode",
-            "RedirectionValue": "imePayWallet",
-            "RedirectionModule": "sendMoney"
-          }
-        ]
-      },
-      {
-        "CategoryTitle": "Invest",
-        "DisplayOrder": 5,
-        "CategoryTheme": 5,
-        "CategoryContent": [
+            "RedirectionValue": "cashPickUp",
+            "RedirectionModule": "sendMoney",
+            "Data": null
+          },
           {
+            "Title": "Bank Transfer",
             "PromotionalTxt": "",
-            "Title": "STOCK Update",
-            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/Feature/Add_TouchID.png",
-            "BtnIcon": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/banktransfer.png",
             "DisplayOrder": 1,
-            "SubTitle": "Get the latest Nepse view",
-            "BtnLabel": "VIEW MORE",
             "IsDisabled": false,
             "DisableMesg": "Temporaliy Down",
             "RedirectionType": "FeatureCode",
-            "RedirectionValue": "stock",
-            "RedirectionModule": "stock"
-          }
-        ]
-      },
-      {
-        "CategoryTitle": "Online Shopping",
-        "DisplayOrder": 6,
-        "CategoryTheme": 6,
-        "CategoryContent": [
-          {
-            "PromotionalTxt": "",
-            "DisplayOrder": 1,
-            "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=l8%2fAJURMsyzGvqJLmdQ6VJ3xDPJPC7pHa85D9b5Sxv0%3d",
-            "RedirectionType": "RedirectionURL",
-            "RedirectionValue": "https://click.daraz.com.np/e/_688Dp",
-            "Title": "Darz"
+            "RedirectionValue": "bankDeposit",
+            "RedirectionModule": "sendMoney",
+            "Data": null
           },
           {
-            "Logo": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=zHI1jn4yXYyNI2QCoxGRvVfbC%2fsZywNqZq%2fFZFHy9E4%3d",
+            "Title": "Coperative Transfer",
             "PromotionalTxt": "",
-            "DisplayOrder": 2,
-            "RedirectionType": "RedirectionURL",
-            "RedirectionValue": "https://www.sastodeal.com/",
-            "Title": "Sastodeal"
-          },
-          {
-            "Logo": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=gYWCX8xqcuzSMEIjdP%2br6A9GgoNL4sNyN80FneyGz2RuSXLzr7sqL8nDza9P7dtv",
-            "PromotionalTxt": "",
-            "DisplayOrder": 2,
-            "RedirectionType": "RedirectionURL",
-            "RedirectionValue": "https://www.gyapu.com/",
-            "Title": "Gyapu"
-          }
-        ]
-      },
-      {
-        "CategoryTitle": "Food",
-        "DisplayOrder": 7,
-        "CategoryTheme": 6,
-        "CategoryContent": [
-          {
-            "PromotionalTxt": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/cooperative.png",
             "DisplayOrder": 1,
-            "RedirectionType": "RedirectionURL",
-            "RedirectionValue": "https://thulo.com/",
-            "Title": "Thulo Pasal Pvt Ltd",
-            "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=3YrNB3nc0TUxp6iOPPtf%2fyEX2wWkzVyHf0%2bvMWGvjkg5RXlp1hPHtlNBDvsUWAMu",
             "IsDisabled": false,
-            "DisableMesg": "Service disabled for 3 hours"
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "COOPERATIVE",
+            "RedirectionModule": "COOPERATIVE",
+            "Data": null
           },
           {
+            "Title": "Microfinance Transfer",
             "PromotionalTxt": "",
+            "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/microfinance.png",
             "DisplayOrder": 1,
-            "RedirectionType": "RedirectionURL",
-            "RedirectionValue": "https://thulo.com/",
-            "Title": "Neostore",
-            "Icon": "https://cdn.imepay.com.np:9001/Handler/AdminImageHandler.ashx?img=qYCGVg21bWhv3vc6F%2fAX9L093YYX7IAYZyD8DR1wednk9r5%2bA8XYlfk4DrEeJnJY",
-            "IsDisabled": true,
-            "DisableMesg": "Service disabled for 3 hours"
+            "IsDisabled": false,
+            "DisableMesg": "Temporaliy Down",
+            "RedirectionType": "FeatureCode",
+            "RedirectionValue": "MFIN",
+            "RedirectionModule": "MFIN",
+            "Data": null
           }
         ]
       }
-    ],
-    "HeaderMenu": {
-      "CategoryTitle": "Account Options",
-      "DisplayOrder": 1,
-      "CategoryTheme": 1,
-      "CategoryContent": [
-        {
-          "Title": "Withdraw Money",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/recharge.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "withdrawMoney",
-          "RedirectionModule": "withdrawMoney",
-          "Data": null
-        },
-        {
-          "Title": "Link Bank",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "linkBank",
-          "RedirectionModule": "profile",
-          "Data": null
-        },
-        {
-          "Title": "Payment Requests",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "sendrequest",
-          "RedirectionModule": "sendrequest",
-          "Data": null
-        },
-        {
-          "Title": "Invitation Rewards",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/household.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "invite",
-          "RedirectionModule": "profile",
-          "Data": null
-        }
-      ]
-    },
-    "FooterMenu": {
-      "CategoryTitle": "Sending Options",
-      "CategoryContent": [
-        {
-          "Title": "IME Pay Wallet",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/p2p.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "imePayWallet",
-          "RedirectionModule": "sendMoney",
-          "Data": null
-        },
-        {
-          "Title": "IME Domestic Remittance",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/imedomestic.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "cashPickUp",
-          "RedirectionModule": "sendMoney",
-          "Data": null
-        },
-        {
-          "Title": "Bank Transfer",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/banktransfer.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "bankDeposit",
-          "RedirectionModule": "sendMoney",
-          "Data": null
-        },
-        {
-          "Title": "Coperative Transfer",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/cooperative.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "COOPERATIVE",
-          "RedirectionModule": "COOPERATIVE",
-          "Data": null
-        },
-        {
-          "Title": "Microfinance Transfer",
-          "PromotionalTxt": "",
-          "Icon": "https://cdn.imepay.com.np:9001/Content/Images/homeicons/microfinance.png",
-          "DisplayOrder": 1,
-          "IsDisabled": false,
-          "DisableMesg": "Temporaliy Down",
-          "RedirectionType": "FeatureCode",
-          "RedirectionValue": "MFIN",
-          "RedirectionModule": "MFIN",
-          "Data": null
-        }
-      ]
     }
   }
 }
